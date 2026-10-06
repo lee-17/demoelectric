@@ -245,7 +245,7 @@
                     for="email"
                     class="login-label"
                 >
-                    Username
+                    Email
                 </label>
 
                 <input
@@ -253,7 +253,7 @@
                     id="email"
                     name="email"
                     class="login-input"
-                    placeholder="Enter any username"
+                    placeholder="Enter your email"
                     value="<?= old('email') ?>"
                     required
                 >
@@ -277,7 +277,7 @@
                     id="password"
                     name="password"
                     class="login-input"
-                    placeholder="Enter any password"
+                    placeholder="Enter your password"
                     required
                 >
 
