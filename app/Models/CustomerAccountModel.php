@@ -22,4 +22,51 @@ class CustomerAccountModel extends Model
     ];
 
     protected $useTimestamps = true;
+
+    public function getAccountsPaginated(int $perPage = 10): array
+    {
+        return $this->orderBy('created_at', 'DESC')
+            ->paginate($perPage);
+    }
+
+    public function searchAccounts(string $keyword, int $perPage = 10): array
+    {
+        return $this->groupStart()
+            ->like('account_number', $keyword)
+            ->orLike('customer_name', $keyword)
+            ->orLike('email', $keyword)
+            ->orLike('phone', $keyword)
+            ->groupEnd()
+            ->orderBy('created_at', 'DESC')
+            ->paginate($perPage);
+    }
+
+    public function getAccountsByStatus(
+        string $status,
+        int $perPage = 10
+    ): array {
+        return $this->where('status', $status)
+            ->orderBy('created_at', 'DESC')
+            ->paginate($perPage);
+    }
+
+    public function getAccountsByType(
+        string $type,
+        int $perPage = 10
+    ): array {
+        return $this->where('connection_type', $type)
+            ->orderBy('created_at', 'DESC')
+            ->paginate($perPage);
+    }
+
+    public function getTotalAccounts(): int
+    {
+        return $this->countAllResults();
+    }
+
+    public function getCountByStatus(string $status): int
+    {
+        return $this->where('status', $status)
+            ->countAllResults();
+    }
 }
