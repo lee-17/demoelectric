@@ -1,0 +1,120 @@
+CRITICAL - 2026-10-06 09:47:02 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:47:13 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:00 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:01 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:01 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:01 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:01 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:02 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:02 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:02 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:49:14 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 09:52:01 --> BadMethodCallException: Call to undefined method App\Models\CustomerAccountModel::getAccountsPaginated
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\CustomerAccounts.php(40): CodeIgniter\Model->__call('getAccountsPaginated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

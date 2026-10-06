@@ -140,6 +140,22 @@
                     Puihaha Electric Customer Account Management
                 </p>
 
+                <?php if (session()->getFlashdata('success')): ?>
+                    <div class="alert alert-success">
+                        <?= esc(session()->getFlashdata('success')) ?>
+                    </div>
+                <?php endif; ?>
+
+                <?php if (session()->getFlashdata('error')): ?>
+                    <div class="alert alert-danger">
+                        <?= esc(session()->getFlashdata('error')) ?>
+                    </div>
+                <?php endif; ?>
+
+                <a href="<?= base_url('account/new') ?>" class="btn btn-primary mb-3">
+                    <i class="fas fa-plus"></i> Add Customer Account
+                </a>
+
             </div>
 
 
@@ -387,7 +403,7 @@
 
                             <th>Status</th>
 
-                            <th>Action</th>
+                            <th>Actions</th>
 
                         </tr>
 
@@ -498,6 +514,25 @@
                                         >
                                             View
                                         </a>
+
+                                        <a
+                                            href="<?= base_url('account/edit/' . $account['id']) ?>"
+                                            class="btn btn-sm btn-outline-warning"
+                                        >
+                                            Edit
+                                        </a>
+
+                                        <form
+                                            method="post"
+                                            action="<?= base_url('account/delete/' . $account['id']) ?>"
+                                            class="d-inline"
+                                            onsubmit="return confirm('Delete this customer account?');"
+                                        >
+                                            <?= csrf_field() ?>
+                                            <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                Delete
+                                            </button>
+                                        </form>
 
                                     </td>
 

@@ -19,7 +19,7 @@ class Login extends BaseController
             'title' => 'Login - Puihaha Electric',
             'page' => 'login',
             'error' => session()->getFlashdata('error'),
-            'success' => session()->getFlashdata('success')
+            'success' => session()->getFlashdata('success'),
         ];
 
         return view('login', $data);
@@ -31,52 +31,46 @@ class Login extends BaseController
         $password = $this->request->getPost('password');
 
         if (empty($email) || empty($password)) {
-            session()->setFlashdata(
-                'error',
-                'Please enter your email and password.'
-            );
-
-            return redirect()->to('/login')->withInput();
+            return redirect()
+                ->to('/login')
+                ->withInput()
+                ->with('error', 'Please enter your email and password.');
         }
 
         $user = $this->userModel->findByEmail($email);
 
         if (!$user) {
-            session()->setFlashdata(
-                'error',
-                'Invalid email or password.'
-            );
-
-            return redirect()->to('/login')->withInput();
+            return redirect()
+                ->to('/login')
+                ->withInput()
+                ->with('error', 'Invalid email or password.');
         }
 
         if (!$user['is_active']) {
-            session()->setFlashdata(
-                'error',
-                'Your account is inactive.'
-            );
-
-            return redirect()->to('/login');
+            return redirect()
+                ->to('/login')
+                ->with('error', 'Your account is inactive.');
         }
 
         if (!$this->userModel->verifyPassword(
             $password,
             $user['password']
         )) {
-            session()->setFlashdata(
-                'error',
-                'Invalid email or password.'
-            );
-
-            return redirect()->to('/login')->withInput();
+            return redirect()
+                ->to('/login')
+                ->withInput()
+                ->with('error', 'Invalid email or password.');
         }
+
+        // Prevent session fixation after successful login
+        session()->regenerate(true);
 
         session()->set([
             'user_id' => $user['id'],
             'user_email' => $user['email'],
             'user_name' => $user['first_name'] . ' ' . $user['last_name'],
             'user_type' => $user['user_type'],
-            'is_logged_in' => true
+            'is_logged_in' => true,
         ]);
 
         return redirect()->to('/accounts');
