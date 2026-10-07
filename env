@@ -33,7 +33,7 @@
 database.default.hostname = sql208.infinityfree.com
 database.default.database = if0_43109265_electriccompany
 database.default.username = if0_43109265
-database.default.password = YOUR_ACTUAL_INFINITYFREE_PASSWORD
+database.default.password = DemoElectric123
 database.default.DBDriver = MySQLi
 database.default.DBPrefix =
 database.default.port = 3306
