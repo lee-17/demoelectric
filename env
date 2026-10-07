@@ -14,7 +14,7 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+# CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
@@ -30,12 +30,11 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-database.default.hostname = sql208.infinityfree.com
-database.default.database = if0_43109265_electriccompany
-database.default.username = if0_43109265
+database.default.hostname = sql207.infinityfree.com
+database.default.database = if0_43112003_electriccompany
+database.default.username = if0_43112003
 database.default.password = DemoElectric123
 database.default.DBDriver = MySQLi
-database.default.DBPrefix =
 database.default.port = 3306
 
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
